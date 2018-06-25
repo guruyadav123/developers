@@ -5,7 +5,7 @@
 <meta name="author" content="Gaurav Yadav">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel ="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="icon" href="icon.png">
+<link rel="icon" href="../images/icon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"> </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <title>W3.CSS </title>
@@ -15,54 +15,54 @@
 <h1>THE EVENTS </h1>
 </div>
 <div style="background:rgb(51, 102, 0);"class="w3-container w3-center w3-padding">
-<img class="a w3-card-4" src="imag1.jpg" alt="one"style="max-width:600px; height:400px; width:100%">
-<img class="a w3-card-4" src="imag2.jpg" alt="two"style="max-width:600px; height:400px; width:100%">
-<img class="a w3-card-4" src="imag3.jpg" alt="three"style="max-width:600px; height:400px; width:100%">
-<img class="a w3-card-4" src="imag4.jpg" alt="four"style="max-width:600px; height:400px; width:100%">
+<img class="a w3-card-4" src="../images/imag1.jpg" alt="one"style="max-width:600px; height:400px; width:100%">
+<img class="a w3-card-4" src="../images/imag2.jpg" alt="two"style="max-width:600px; height:400px; width:100%">
+<img class="a w3-card-4" src="../images/imag3.jpg" alt="three"style="max-width:600px; height:400px; width:100%">
+<img class="a w3-card-4" src="../images/imag4.jpg" alt="four"style="max-width:600px; height:400px; width:100%">
 </div>
 <div style="background:rgb(51, 102, 0);"class="w3-row w3-container">
 <div class="w3-half w3-text-white w3-center">
-<img  onmouseover="effect('A')" onmouseout ="effect2('A')"onclick= "con('A')"class="A w3-circle w3-hover-grayscale w3-card-4"src="event1.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('A')" onmouseout ="effect2('A')"onclick= "con('A')"class="A w3-circle w3-hover-grayscale w3-card-4"src="../images/event1.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;"class="w3-hover-text-pink ">MOSAIC </h2>
 </div>
 <div class="w3-half w3-text-white w3-center ">
-<img  onmouseover="effect('B')" onmouseout ="effect2('B')" onclick= "con('B')"class="B w3-circle w3-hover-grayscale w3-card-4"src="event3.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('B')" onmouseout ="effect2('B')" onclick= "con('B')"class="B w3-circle w3-hover-grayscale w3-card-4"src="../images/event3.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;" class="w3-hover-text-pink ">SPYBITS </h2>
  </div>
 </div>
 <div style="background:rgb(51, 102, 0);"class="w3-row w3-container">
 <div class="w3-half w3-text-white w3-center">
-<img  onmouseover="effect('C')" onmouseout ="effect2('C')"onclick= "con('C')"class="C w3-circle w3-hover-grayscale w3-card-4"src="event2.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('C')" onmouseout ="effect2('C')"onclick= "con('C')"class="C w3-circle w3-hover-grayscale w3-card-4"src="../images/event2.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;"class="w3-hover-text-pink ">CONTINUUM</h2>
 </div>
 <div class="w3-half w3-text-white w3-center ">
-<img  onmouseover="effect('D')" onmouseout ="effect2('D')"onclick= "con('D')"class="D w3-circle w3-hover-grayscale w3-card-4"src="event4.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('D')" onmouseout ="effect2('D')"onclick= "con('D')"class="D w3-circle w3-hover-grayscale w3-card-4"src="../images/event10.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;"class="w3-hover-text-pink ">COMMNET </h2>
  </div>
 </div>
 <div style="background:rgb(51, 102, 0);"class="w3-row w3-container">
 <div class="w3-half w3-text-white w3-center">
-<img  onmouseover="effect('E')" onmouseout ="effect2('E')" onclick= "con('E')"class="E w3-circle w3-hover-grayscale w3-card-4"src="ece1.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('E')" onmouseout ="effect2('E')" onclick= "con('E')"class="E w3-circle w3-hover-grayscale w3-card-4"src="../images/ece1.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;"class="w3-hover-text-pink ">I-CHIP </h2>
 </div>
 <div class="w3-half w3-text-white w3-center ">
-<img  onmouseover="effect('F')" onmouseout ="effect2('F')"onclick= "con('F')"class="F w3-circle w3-hover-grayscale w3-card-4"src="even5.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('F')" onmouseout ="effect2('F')"onclick= "con('F')"class="F w3-circle w3-hover-grayscale w3-card-4"src="../images/even5.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;"class="w3-hover-text-pink ">DIGISIM </h2>
  </div>
 </div>
 <div style="background:rgb(51, 102, 0);"class="w3-row w3-container">
 <div class="w3-half w3-text-white w3-center">
-<img  onmouseover="effect('G')" onmouseout ="effect2('G')"onclick= "con('G')"class="G w3-circle w3-hover-grayscale w3-card-4"src="event7.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('G')" onmouseout ="effect2('G')"onclick= "con('G')"class="G w3-circle w3-hover-grayscale w3-card-4"src="../images/event7.jpg"  alt="one" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;"class="w3-hover-text-pink ">FUNCKIT </h2>
 </div>
 <div class="w3-half w3-text-white w3-center ">
-<img  onmouseover="effect('H')" onmouseout ="effect2('H')"onclick= "con('H')"class="H w3-circle w3-hover-grayscale w3-card-4"src="event8.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
+<img  onmouseover="effect('H')" onmouseout ="effect2('H')"onclick= "con('H')"class="H w3-circle w3-hover-grayscale w3-card-4"src="../images/event8.jpg"  alt="two" width="100%" style="max-width:300px; height:200px; border:4px solid orange;"><br>
 <h2 style="display:inline-block;" class="w3-hover-text-pink ">MUSE </h2>
  </div>
 </div>
 <div  class="A w3-modal w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-card-4 w3-animate-left w3-padding w3-center">
-<a href="11.phP" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white"> Have you heard about the sixth sense technology developed by Pranav Mistry
  and have you ever thought of trying to implement a few of its basic features by yourself? 
@@ -74,7 +74,7 @@ you are going to implement basic motion tracking & gesture recognition using ima
 </div>
 <div class="B w3-modal w3-card-4 w3-container ">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white"> Does hacking attract you? Do you want 
 to know how your confidential information is kept secret from hackers? 
@@ -88,7 +88,7 @@ you will learn how to protect your conversation safe from eavesdroppers and even
 </div>
 <div  class="C w3-modal w3-card-4 w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white"> Analogue signals
  are those in which information is represented by a continuously variable physical quantity such 
@@ -102,7 +102,7 @@ you will learn how to protect your conversation safe from eavesdroppers and even
 </div>
 <div  class="D w3-modal w3-card-4 w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php"class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white"> Analogue signals are those in 
 which information is represented by a continuously variable physical quantity such as spatial position,
@@ -116,7 +116,7 @@ and simulation while the latter shall aid the participants in case the circuits 
 </div>
 <div class="E w3-modal w3-card-4 w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white">An HDL event: Now
  there is no need to manually place gates and transistors to build electronic circuits. Describe 
@@ -129,7 +129,7 @@ and optimize it, then dump the code on the FPGA Kit to physically realize the de
 </div>
 <div  class="F w3-modal w3-card-4 w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white">Digisim basically stands for digital 
 simulation. And digital simulation in layman terms can be expressed as the running of a digital system’s model. 
@@ -142,7 +142,7 @@ simulate complex digital circuits. Participants will learn advanced circuit desi
 </div>
 <div  class="G w3-modal w3-card-4 w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white">Engineers are the pioneers in implementation 
 of scientific principles and technological innovations in the real world. The event is going to be two fold. In the first 
@@ -157,7 +157,7 @@ the industry by providing solutions using simulation tools like Matlab, Pspice, 
 </div>
 <div  class="H w3-modal w3-card-4 w3-container">
 <div style="background:rgb(255, 102, 153);"class="w3-modal-content  w3-animate-left w3-padding w3-center">
-<a href="11.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
+<a href="events.php" class="w3-button w3-right w3-hover-blue w3-text-white"> &times;</a>
 <h2 class="w3-center w3-text-black">Introduction </h2>
 <p style="text-align:justify;font-weight:bold;"class="w3-text-white">"If you have an apple and I have 
 an apple and we exchange these apples then you and I will still each have one apple. 

@@ -1,22 +1,36 @@
 <?php
 if(!isset($_POST['submit']))
-header ('location:7.php');	
-$name=$_POST['name'];
-$email=$_POST['email'];
-$password=$_POST['password'];
-$phone=$_POST['phone'];
-$gender=$_POST['gender'];
+header ('location:login.php');	
 $con=mysqli_connect('localhost','root');
+if(!$con)
+die('Connection did not established.'.mysqli_connect_error());	
+$name=mysqli_real_escape_string ($con,$_POST['name']);
+$email=mysqli_real_escape_string ($con,$_POST['email']);
+$password=mysqli_real_escape_string ($con,$_POST['password']);
+$phone=mysqli_real_escape_string ($con,$_POST['phone']);
+$gender=mysqli_real_escape_string ($con,$_POST['gender']);
+$status=0;
 mysqli_select_db($con,'record');
-$q="insert into participent (name,email,password,phone,gender) values ('$name','$email','$password','$phone','$gender')";
-$status=mysqli_query($con,$q);
+$q="insert into participent (name,email,password,phone,gender) values (?,?,?,?,?)";
+$stmt=mysqli_stmt_init($con);
+if(!mysqli_stmt_prepare($stmt,$q))
+{
+$name= 'Something went wrong.sql query did not work.'; 
+$status=1;
+}
+mysqli_stmt_bind_param($stmt ,'sssss',$name,$email,$password,$phone,$gender);
+if(!mysqli_stmt_execute($stmt))
+{
+$name= "This email already has been registered.please enter new email...";
+$status=1;
+}
 mysqli_close($con);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>W3.CSS </title>
-<link rel="icon" type="image/gif" href="icon.png">
+<link rel="icon" type="image/gif" href="../images/icon.png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width ,initial-scale=1.0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -111,11 +125,11 @@ height:1px;
 </div>
 <div id="mod" class="w3-modal">
 <div  style=" background:rgb(255, 255, 204);"class="w3-modal-content w3-display-container">
-<a href="7.php" class="w3-button w3-display-topright">&times;</a>
+<a href="login.php" class="w3-button w3-display-topright">&times;</a>
 <h2 class="w3-text-gray w3-center"> CONGRATUATIONS FOR EVENT !!!! </h2>
-<h3 class="w3-text-blue w3-center">Hello <?php if($status==1) echo $name."your data has been submitted to our server..."; 
+<h3 class="w3-text-blue w3-center">Hello <?php if($status==0) echo $name."your data has been submitted to our server..."; 
 else
-echo "This email already has been registered.please enter new email..."	;
+echo $name;	;
 ?></h3>
 </div>
 </div>

@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_POST['submit']))
 {	
-header('location:13.php');
+header('location:sponsor.php');
 }
 else
 {
@@ -62,7 +62,7 @@ $a=1;
 }
 else                                       // image upload php code !!
 {
-if(isset($_POST['file']))
+if(isset($_FILES['file'] ) and $_FILES['file']['name']!="")
 {	
 if(in_array($format,$arr))
 {
@@ -71,7 +71,7 @@ if($fileerror==0)
 if($filesize<400000)
 {
 $filename1=bin2hex(openssl_random_pseudo_bytes(16)).".".$format;
-move_uploaded_file($filetempname,'sponsor image/'.$filename1);
+move_uploaded_file($filetempname,'../sponsorimage/'.$filename1);
 }
 else 
 {
@@ -116,6 +116,6 @@ $derror= "CONGRATULATIONS!!! $name  we have received ur information.";
 }
 }
 $_SESSION['$error']=$derror;
-header('location:13.php');
+header('location:sponsor.php');
 ?>
 

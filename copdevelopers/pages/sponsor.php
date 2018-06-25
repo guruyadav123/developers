@@ -8,14 +8,14 @@ session_start();
 <meta name="author" content="Gaurav Yadav">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel ="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="icon" href="icon.png">
+<link rel="icon" href="../images/icon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"> </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <title>W3.CSS </title>
 </head>
 <body style="background:rgb(255, 204, 153);">
 <div style="background:rgb(255, 204, 153);"class="w3-container w3-center w3-text-blue"> 
-<img src="sponsor.jpg" alt="one" width="100%"  height="auto" style="max-width:500px;">
+<img src="../images/sponsor.jpg" alt="one" width="100%"  height="auto" style="max-width:500px;">
 <h1 class="w3-center w3-text-blue">DAYS TO GO -> </h1>
 <div class="w3-row">
 <div class="w3-cell w3-col s3 m3 l3 w3-padding w3-center">
@@ -47,7 +47,7 @@ session_destroy();
 </p>
 </div>
 <div style="background:rgb(255, 204, 153);" class="w3-container"> 
-<form  method="post" action="14.php" enctype="multipart/form-data">
+<form  method="post" action="sendsponsordata.php" enctype="multipart/form-data">
 <div  onmouseover="effect()" onmouseout="effect1()" style="background:rgb(255, 0, 255); max-width:600px;" class="A w3-card-4 w3-container w3-padding w3-content">
 <label class="w3-text-white w3-xlarge">Name <sup class="w3-text-black">* </sup> </label><span class="w3-right w3-text-white"><span class="w3-text-black">* </span>required </span>
 <input  id="B" onfocus ="func('B')" onblur ="func2('B')" style="border:2px solid orange;" class="w3-input w3-round " type="text" name="user" required> 
@@ -60,7 +60,7 @@ session_destroy();
 <label class="w3-text-white w3-xlarge">Organization <sup class="w3-text-black">* </sup>  </label>
 <input  id="F"  onfocus ="func('F')" onblur ="func2('F')" style="border:2px solid orange;"  class="w3-input w3-round" type="text" name="org" required>  
 <label class="w3-text-white w3-xlarge">Sponsor Image </label> <br>
-<input  id="t"  onfocus ="func('t')" onblur ="func2('t')" style="border:2px solid orange;"  type="file"  name="file" > <br> 
+<input  id="t"  onfocus ="func('t')" onblur ="func2('t')" style="border:2px solid orange;"  type="file" value='file'   name="file" > <br> 
 <label class="w3-text-white w3-xlarge">Organization Type  </label>
 <input  id="G"  onfocus ="func('G')" onblur ="func2('G')" style="border:2px solid orange;"  class="w3-input w3-round" type="text" name="org1"> 
 <label class="w3-text-white w3-xlarge w3-round">Sponsorship Category <sup class="w3-text-black">* </sup> </label>
@@ -132,7 +132,7 @@ x.style.border="2px solid orange";
 $(document).ready(function (){
 $('#E').keyup(function(){
 var name=$(this).val();	
-$.post('15.php',{data:name},function(data,status){
+$.post('sponsorajax.php',{data:name},function(data,status){
 $('#ajax').text(data);
 });
 });	

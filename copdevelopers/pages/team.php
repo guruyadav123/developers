@@ -5,7 +5,7 @@
 <meta name="author" content="Gaurav Yadav">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel ="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="icon" href="icon.png">
+<link rel="icon" href="../images/icon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"> </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <title>W3.CSS </title>
@@ -13,7 +13,7 @@
 <style>
 .bg
 {
-background-image:url('team2.jpg');
+background-image:url('../images/team2.jpg');
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-size:cover;
@@ -28,13 +28,13 @@ height:15px;
 </style>
 <body style="background:rgb(242, 242, 242);">
 <div class="w3-bar w3-top w3-black">
-<a  href="10.php" class="w3-button w3-text-white w3-hover-text-black w3-bar-item w3-hover-gray">Home <i class="fa fa-home"> </i></a> 
+<a  href="../index.php" class="w3-button w3-text-white w3-hover-text-black w3-bar-item w3-hover-gray">Home <i class="fa fa-home"> </i></a> 
 <a  href="#" class="temp1 w3-button w3-text-white w3-hover-text-black w3-bar-item w3-bar-item w3-hide-small w3-hide-medium w3-hover-gray">Organizing Team <i class="fa fa-sitemap"> </i></a> 
 <a  href="#" class="temp2 w3-button w3-text-white w3-hover-text-black w3-bar-item w3-bar-item w3-hide-small w3-hide-medium w3-hover-gray">Marketing Team <i class="fa fa-money"> </i></a> 
 <a  href="#" class="temp3 w3-button w3-text-white w3-hover-text-black w3-bar-item w3-bar-item w3-hide-small w3-hide-medium w3-hover-gray">Publicity Team <i class="fa fa-share-alt"> </i></a> 
 <a  href="#" class="temp4 w3-button w3-text-white w3-hover-text-black w3-bar-item w3-bar-item w3-hide-small w3-hide-medium w3-hover-gray">Creativity Team <i class="fa fa-magic"> </i></a> 
 <a  href="#" class="temp5 w3-button w3-text-white w3-hover-text-black w3-bar-item w3-bar-item w3-hide-small w3-hide-medium w3-hover-gray">Web-designing Team <i class="fa fa-modx"> </i></a> 
-<a  href="7.php" class="w3-button w3-text-white w3-hover-text-black  w3-bar-item  w3-hide-small w3-hide-medium w3-bar-item w3-hover-gray">Sign Me Up! <i class="fa fa-sign-in"> </i></a> 
+<a  href="login.php" class="w3-button w3-text-white w3-hover-text-black  w3-bar-item  w3-hide-small w3-hide-medium w3-bar-item w3-hover-gray">Sign Me Up! <i class="fa fa-sign-in"> </i></a> 
 <a  href="#"   onclick="fun('A')" class="w3-button w3-text-white w3-hover-text-black w3-bar-item w3-right w3-hide-large w3-bar-item w3-hover-gray"> &#9776;</a> 
 </div>
 <div id="A" class="w3-card-4 w3-bar-block  w3-right w3-black w3-hide">
@@ -44,7 +44,7 @@ height:15px;
 <a  href="#" class="temp03 w3-button w3-text-white w3-hover-text-black w3-bar-item w3-hide-large w3-hover-gray">Publicity Team <i class="fa fa-share-alt"> </i></a> 
 <a  href="#" class="temp04 w3-button w3-text-white w3-hover-text-black w3-bar-item  w3-hide-large w3-hover-gray">Creativity Team <i class="fa fa-magic"> </i></a> 
 <a  href="#" class="temp05 w3-button w3-text-white w3-hover-text-black w3-bar-item  w3-hide-large w3-hover-gray">Web-designing Team <i class="fa fa-modx"> </i></a> 
-<a  href="7.php" class="w3-button w3-text-white w3-hover-text-black w3-right w3-bar-item  w3-hide-large w3-bar-item w3-hover-gray">Sign Me Up! <i class="fa fa-sign-in"> </i></a>
+<a  href="login.php" class="w3-button w3-text-white w3-hover-text-black w3-right w3-bar-item  w3-hide-large w3-bar-item w3-hover-gray">Sign Me Up! <i class="fa fa-sign-in"> </i></a>
 </div>
 <div style ="font-weight:bold;text-shadow:2px 2px 2px black;"class="bg w3-container w3-text-pink w3-xxxlarge w3-center"> 
 <span style="position:relative;top:100px;">OUR TEAM </span>
